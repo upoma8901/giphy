@@ -18,19 +18,19 @@ Make sure to check off your items as you complete them. [ ] => [x]
 ### JS
 - [X] Create  an AJAX function inseide the click handler
 - [X] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
-- [ ] Display the original image to the screen
+- [x ] Display the original image to the screen
 
 ### Wrap
-- [ ] Push your changes!
+- [ x] Push your changes!
 
 ## Day 2
 ### JS
-- [ ] Take user input from the input box when button is clicked
-- [ ] Update the API request url based on user input
-- [ ] Display the image to the screen
+- [ x] Take user input from the input box when button is clicked
+- [ x] Update the API request url based on user input
+- [ x] Display the image to the screen
 
 ### Wrap
-- [ ] Push your changes!
+- [ x] Push your changes!
 
 
 ## Day 3

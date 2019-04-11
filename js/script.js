@@ -15,7 +15,18 @@ $("#search-button").click(function(){
       success: function(response) {
            var pic_url = response.data[0].images.original.url;
 
-           $('.form-inline').html('<img src=' + pic_url + '>');
+           $('.gallery').html('<img src=' + pic_url + '>');
+
+             $(function () {
+  $('#emailLink').on('click', function (event) {
+      event.preventDefault();
+    alert("send");
+    var email = '';
+    var subject = 'gif';
+    var emailBody = pic_url;
+    window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
+  });
+});
       },
     });
 
