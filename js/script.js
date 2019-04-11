@@ -23,7 +23,7 @@ $("#search-button").click(function(){
     alert("send");
     var email = '';
     var subject = 'gif';
-    var emailBody = pic_url;
+    var emailBody =  pic_url ;
     window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
   });
 });
